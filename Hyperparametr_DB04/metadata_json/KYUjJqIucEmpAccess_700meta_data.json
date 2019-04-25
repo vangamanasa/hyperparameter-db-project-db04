@@ -1,0 +1,53 @@
+{
+    "project": "KYUjJqIuc_EmpAccess_700",
+    "run_time": 700,
+    "run_id": "KYUjJqIuc",
+    "start_time_sec": 1555606780.2417612,
+    "min_mem_size": 2,
+    "balance": false,
+    "balance_threshold": 0.2,
+    "max_models": null,
+    "scale": false,
+    "model_path": null,
+    "server_path": "C:\\Users\\hp\\Desktop\\Data Science Hyperparameter Project",
+    "data_path": "C:/Users/hp/Desktop/Data Science Hyperparameter Project/Employee_access_data.csv",
+    "run_path": "C:\\Users\\hp\\Desktop\\Data Science Hyperparameter Project\\KYUjJqIuc_EmpAccess_700",
+    "nthreads": 1,
+    "analysis": 0,
+    "end_time_sec": 1555606780.2417612,
+    "Problem_type": "Classification",
+    "Total Records": 327690,
+    "Target": "ACTION",
+    "X": [
+        "RESOURCE",
+        "MGR_ID",
+        "ROLE_ROLLUP_1",
+        "ROLE_ROLLUP_2",
+        "ROLE_DEPTNAME",
+        "ROLE_TITLE",
+        "ROLE_FAMILY_DESC",
+        "ROLE_FAMILY",
+        "ROLE_CODE"
+    ],
+    "levels": [
+        [
+            "0",
+            "1"
+        ]
+    ],
+    "variables": {
+        "ACTION": "enum",
+        "RESOURCE": "int",
+        "MGR_ID": "int",
+        "ROLE_ROLLUP_1": "int",
+        "ROLE_ROLLUP_2": "int",
+        "ROLE_DEPTNAME": "int",
+        "ROLE_TITLE": "int",
+        "ROLE_FAMILY_DESC": "int",
+        "ROLE_FAMILY": "int",
+        "ROLE_CODE": "int"
+    },
+    "model_execution_time_sec": 708.7163550853729,
+    "Models_generated": 21,
+    "end_time": 1555607526.6153395
+}

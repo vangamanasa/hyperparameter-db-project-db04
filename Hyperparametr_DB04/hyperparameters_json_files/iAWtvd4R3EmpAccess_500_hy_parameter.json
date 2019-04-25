@@ -1,0 +1,1225 @@
+[
+    {
+        "model_id": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ModelKeyV3",
+                    "schema_type": "Key<Model>"
+                },
+                "name": "StackedEnsemble_BestOfFamily_AutoML_20190418_113508",
+                "type": "Key<Model>",
+                "URL": "/3/Models/StackedEnsemble_BestOfFamily_AutoML_20190418_113508"
+            }
+        },
+        "training_frame": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "FrameKeyV3",
+                    "schema_type": "Key<Frame>"
+                },
+                "name": "automl_training_py_6_sid_8a3f",
+                "type": "Key<Frame>",
+                "URL": "/3/Frames/automl_training_py_6_sid_8a3f"
+            }
+        },
+        "response_column": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ColSpecifierV3",
+                    "schema_type": "VecSpecifier"
+                },
+                "column_name": "ACTION",
+                "is_member_of_frames": null
+            }
+        },
+        "validation_frame": {
+            "default": null,
+            "actual": null
+        },
+        "base_models": {
+            "default": [],
+            "actual": [
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "XRT_1_AutoML_20190418_113508",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/XRT_1_AutoML_20190418_113508"
+                },
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "DRF_1_AutoML_20190418_113508",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/DRF_1_AutoML_20190418_113508"
+                },
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "XGBoost_1_AutoML_20190418_113508",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/XGBoost_1_AutoML_20190418_113508"
+                },
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "GLM_grid_1_AutoML_20190418_113508_model_1",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/GLM_grid_1_AutoML_20190418_113508_model_1"
+                }
+            ]
+        },
+        "metalearner_algorithm": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "metalearner_nfolds": {
+            "default": 0,
+            "actual": 5
+        },
+        "metalearner_fold_assignment": {
+            "default": null,
+            "actual": null
+        },
+        "metalearner_fold_column": {
+            "default": null,
+            "actual": null
+        },
+        "keep_levelone_frame": {
+            "default": false,
+            "actual": true
+        },
+        "metalearner_params": {
+            "default": "",
+            "actual": ""
+        },
+        "seed": {
+            "default": -1,
+            "actual": 8860961146318218020
+        },
+        "export_checkpoints_dir": {
+            "default": null,
+            "actual": null
+        }
+    },
+    {
+        "model_id": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ModelKeyV3",
+                    "schema_type": "Key<Model>"
+                },
+                "name": "StackedEnsemble_AllModels_AutoML_20190418_113508",
+                "type": "Key<Model>",
+                "URL": "/3/Models/StackedEnsemble_AllModels_AutoML_20190418_113508"
+            }
+        },
+        "training_frame": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "FrameKeyV3",
+                    "schema_type": "Key<Frame>"
+                },
+                "name": "automl_training_py_6_sid_8a3f",
+                "type": "Key<Frame>",
+                "URL": "/3/Frames/automl_training_py_6_sid_8a3f"
+            }
+        },
+        "response_column": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ColSpecifierV3",
+                    "schema_type": "VecSpecifier"
+                },
+                "column_name": "ACTION",
+                "is_member_of_frames": null
+            }
+        },
+        "validation_frame": {
+            "default": null,
+            "actual": null
+        },
+        "base_models": {
+            "default": [],
+            "actual": [
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "XRT_1_AutoML_20190418_113508",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/XRT_1_AutoML_20190418_113508"
+                },
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "DRF_1_AutoML_20190418_113508",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/DRF_1_AutoML_20190418_113508"
+                },
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "XGBoost_1_AutoML_20190418_113508",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/XGBoost_1_AutoML_20190418_113508"
+                },
+                {
+                    "__meta": {
+                        "schema_version": 3,
+                        "schema_name": "ModelKeyV3",
+                        "schema_type": "Key<Model>"
+                    },
+                    "name": "GLM_grid_1_AutoML_20190418_113508_model_1",
+                    "type": "Key<Model>",
+                    "URL": "/3/Models/GLM_grid_1_AutoML_20190418_113508_model_1"
+                }
+            ]
+        },
+        "metalearner_algorithm": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "metalearner_nfolds": {
+            "default": 0,
+            "actual": 5
+        },
+        "metalearner_fold_assignment": {
+            "default": null,
+            "actual": null
+        },
+        "metalearner_fold_column": {
+            "default": null,
+            "actual": null
+        },
+        "keep_levelone_frame": {
+            "default": false,
+            "actual": true
+        },
+        "metalearner_params": {
+            "default": "",
+            "actual": ""
+        },
+        "seed": {
+            "default": -1,
+            "actual": -8563481006798302619
+        },
+        "export_checkpoints_dir": {
+            "default": null,
+            "actual": null
+        }
+    },
+    {
+        "model_id": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ModelKeyV3",
+                    "schema_type": "Key<Model>"
+                },
+                "name": "XRT_1_AutoML_20190418_113508",
+                "type": "Key<Model>",
+                "URL": "/3/Models/XRT_1_AutoML_20190418_113508"
+            }
+        },
+        "training_frame": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "FrameKeyV3",
+                    "schema_type": "Key<Frame>"
+                },
+                "name": "automl_training_py_6_sid_8a3f",
+                "type": "Key<Frame>",
+                "URL": "/3/Frames/automl_training_py_6_sid_8a3f"
+            }
+        },
+        "validation_frame": {
+            "default": null,
+            "actual": null
+        },
+        "nfolds": {
+            "default": 0,
+            "actual": 5
+        },
+        "keep_cross_validation_models": {
+            "default": true,
+            "actual": false
+        },
+        "keep_cross_validation_predictions": {
+            "default": false,
+            "actual": true
+        },
+        "keep_cross_validation_fold_assignment": {
+            "default": false,
+            "actual": false
+        },
+        "score_each_iteration": {
+            "default": false,
+            "actual": false
+        },
+        "score_tree_interval": {
+            "default": 0,
+            "actual": 0
+        },
+        "fold_assignment": {
+            "default": "AUTO",
+            "actual": "Modulo"
+        },
+        "fold_column": {
+            "default": null,
+            "actual": null
+        },
+        "response_column": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ColSpecifierV3",
+                    "schema_type": "VecSpecifier"
+                },
+                "column_name": "ACTION",
+                "is_member_of_frames": null
+            }
+        },
+        "ignored_columns": {
+            "default": null,
+            "actual": []
+        },
+        "ignore_const_cols": {
+            "default": true,
+            "actual": true
+        },
+        "offset_column": {
+            "default": null,
+            "actual": null
+        },
+        "weights_column": {
+            "default": null,
+            "actual": null
+        },
+        "balance_classes": {
+            "default": false,
+            "actual": false
+        },
+        "class_sampling_factors": {
+            "default": null,
+            "actual": null
+        },
+        "max_after_balance_size": {
+            "default": 5.0,
+            "actual": 5.0
+        },
+        "max_confusion_matrix_size": {
+            "default": 20,
+            "actual": 20
+        },
+        "max_hit_ratio_k": {
+            "default": 0,
+            "actual": 0
+        },
+        "ntrees": {
+            "default": 50,
+            "actual": 50
+        },
+        "max_depth": {
+            "default": 20,
+            "actual": 20
+        },
+        "min_rows": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "nbins": {
+            "default": 20,
+            "actual": 20
+        },
+        "nbins_top_level": {
+            "default": 1024,
+            "actual": 1024
+        },
+        "nbins_cats": {
+            "default": 1024,
+            "actual": 1024
+        },
+        "r2_stopping": {
+            "default": 1.7976931348623157e+308,
+            "actual": 1.7976931348623157e+308
+        },
+        "stopping_rounds": {
+            "default": 0,
+            "actual": 0
+        },
+        "stopping_metric": {
+            "default": "AUTO",
+            "actual": "logloss"
+        },
+        "stopping_tolerance": {
+            "default": 0.001,
+            "actual": 0.005524187436252161
+        },
+        "max_runtime_secs": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "seed": {
+            "default": -1,
+            "actual": -7553879344609949487
+        },
+        "build_tree_one_node": {
+            "default": false,
+            "actual": false
+        },
+        "mtries": {
+            "default": -1,
+            "actual": -1
+        },
+        "sample_rate": {
+            "default": 0.6320000290870667,
+            "actual": 0.6320000290870667
+        },
+        "sample_rate_per_class": {
+            "default": null,
+            "actual": null
+        },
+        "binomial_double_trees": {
+            "default": false,
+            "actual": false
+        },
+        "checkpoint": {
+            "default": null,
+            "actual": null
+        },
+        "col_sample_rate_change_per_level": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "col_sample_rate_per_tree": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "min_split_improvement": {
+            "default": 1e-05,
+            "actual": 1e-05
+        },
+        "histogram_type": {
+            "default": "AUTO",
+            "actual": "Random"
+        },
+        "categorical_encoding": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "calibrate_model": {
+            "default": false,
+            "actual": false
+        },
+        "calibration_frame": {
+            "default": null,
+            "actual": null
+        },
+        "distribution": {
+            "default": "AUTO",
+            "actual": "multinomial"
+        },
+        "custom_metric_func": {
+            "default": null,
+            "actual": null
+        },
+        "export_checkpoints_dir": {
+            "default": null,
+            "actual": null
+        },
+        "check_constant_response": {
+            "default": true,
+            "actual": true
+        }
+    },
+    {
+        "model_id": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ModelKeyV3",
+                    "schema_type": "Key<Model>"
+                },
+                "name": "DRF_1_AutoML_20190418_113508",
+                "type": "Key<Model>",
+                "URL": "/3/Models/DRF_1_AutoML_20190418_113508"
+            }
+        },
+        "training_frame": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "FrameKeyV3",
+                    "schema_type": "Key<Frame>"
+                },
+                "name": "automl_training_py_6_sid_8a3f",
+                "type": "Key<Frame>",
+                "URL": "/3/Frames/automl_training_py_6_sid_8a3f"
+            }
+        },
+        "validation_frame": {
+            "default": null,
+            "actual": null
+        },
+        "nfolds": {
+            "default": 0,
+            "actual": 5
+        },
+        "keep_cross_validation_models": {
+            "default": true,
+            "actual": false
+        },
+        "keep_cross_validation_predictions": {
+            "default": false,
+            "actual": true
+        },
+        "keep_cross_validation_fold_assignment": {
+            "default": false,
+            "actual": false
+        },
+        "score_each_iteration": {
+            "default": false,
+            "actual": false
+        },
+        "score_tree_interval": {
+            "default": 0,
+            "actual": 0
+        },
+        "fold_assignment": {
+            "default": "AUTO",
+            "actual": "Modulo"
+        },
+        "fold_column": {
+            "default": null,
+            "actual": null
+        },
+        "response_column": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ColSpecifierV3",
+                    "schema_type": "VecSpecifier"
+                },
+                "column_name": "ACTION",
+                "is_member_of_frames": null
+            }
+        },
+        "ignored_columns": {
+            "default": null,
+            "actual": []
+        },
+        "ignore_const_cols": {
+            "default": true,
+            "actual": true
+        },
+        "offset_column": {
+            "default": null,
+            "actual": null
+        },
+        "weights_column": {
+            "default": null,
+            "actual": null
+        },
+        "balance_classes": {
+            "default": false,
+            "actual": false
+        },
+        "class_sampling_factors": {
+            "default": null,
+            "actual": null
+        },
+        "max_after_balance_size": {
+            "default": 5.0,
+            "actual": 5.0
+        },
+        "max_confusion_matrix_size": {
+            "default": 20,
+            "actual": 20
+        },
+        "max_hit_ratio_k": {
+            "default": 0,
+            "actual": 0
+        },
+        "ntrees": {
+            "default": 50,
+            "actual": 50
+        },
+        "max_depth": {
+            "default": 20,
+            "actual": 20
+        },
+        "min_rows": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "nbins": {
+            "default": 20,
+            "actual": 20
+        },
+        "nbins_top_level": {
+            "default": 1024,
+            "actual": 1024
+        },
+        "nbins_cats": {
+            "default": 1024,
+            "actual": 1024
+        },
+        "r2_stopping": {
+            "default": 1.7976931348623157e+308,
+            "actual": 1.7976931348623157e+308
+        },
+        "stopping_rounds": {
+            "default": 0,
+            "actual": 0
+        },
+        "stopping_metric": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "stopping_tolerance": {
+            "default": 0.001,
+            "actual": 0.005524187436252161
+        },
+        "max_runtime_secs": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "seed": {
+            "default": -1,
+            "actual": -1743252593990095184
+        },
+        "build_tree_one_node": {
+            "default": false,
+            "actual": false
+        },
+        "mtries": {
+            "default": -1,
+            "actual": -1
+        },
+        "sample_rate": {
+            "default": 0.6320000290870667,
+            "actual": 0.6320000290870667
+        },
+        "sample_rate_per_class": {
+            "default": null,
+            "actual": null
+        },
+        "binomial_double_trees": {
+            "default": false,
+            "actual": false
+        },
+        "checkpoint": {
+            "default": null,
+            "actual": null
+        },
+        "col_sample_rate_change_per_level": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "col_sample_rate_per_tree": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "min_split_improvement": {
+            "default": 1e-05,
+            "actual": 1e-05
+        },
+        "histogram_type": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "categorical_encoding": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "calibrate_model": {
+            "default": false,
+            "actual": false
+        },
+        "calibration_frame": {
+            "default": null,
+            "actual": null
+        },
+        "distribution": {
+            "default": "AUTO",
+            "actual": "multinomial"
+        },
+        "custom_metric_func": {
+            "default": null,
+            "actual": null
+        },
+        "export_checkpoints_dir": {
+            "default": null,
+            "actual": null
+        },
+        "check_constant_response": {
+            "default": true,
+            "actual": true
+        }
+    },
+    {
+        "model_id": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ModelKeyV3",
+                    "schema_type": "Key<Model>"
+                },
+                "name": "XGBoost_1_AutoML_20190418_113508",
+                "type": "Key<Model>",
+                "URL": "/3/Models/XGBoost_1_AutoML_20190418_113508"
+            }
+        },
+        "training_frame": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "FrameKeyV3",
+                    "schema_type": "Key<Frame>"
+                },
+                "name": "automl_training_py_6_sid_8a3f",
+                "type": "Key<Frame>",
+                "URL": "/3/Frames/automl_training_py_6_sid_8a3f"
+            }
+        },
+        "validation_frame": {
+            "default": null,
+            "actual": null
+        },
+        "nfolds": {
+            "default": 0,
+            "actual": 5
+        },
+        "keep_cross_validation_models": {
+            "default": true,
+            "actual": false
+        },
+        "keep_cross_validation_predictions": {
+            "default": false,
+            "actual": true
+        },
+        "keep_cross_validation_fold_assignment": {
+            "default": false,
+            "actual": false
+        },
+        "score_each_iteration": {
+            "default": false,
+            "actual": false
+        },
+        "fold_assignment": {
+            "default": "AUTO",
+            "actual": "Modulo"
+        },
+        "fold_column": {
+            "default": null,
+            "actual": null
+        },
+        "response_column": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ColSpecifierV3",
+                    "schema_type": "VecSpecifier"
+                },
+                "column_name": "ACTION",
+                "is_member_of_frames": null
+            }
+        },
+        "ignored_columns": {
+            "default": null,
+            "actual": []
+        },
+        "ignore_const_cols": {
+            "default": true,
+            "actual": true
+        },
+        "offset_column": {
+            "default": null,
+            "actual": null
+        },
+        "weights_column": {
+            "default": null,
+            "actual": null
+        },
+        "stopping_rounds": {
+            "default": 0,
+            "actual": 3
+        },
+        "stopping_metric": {
+            "default": "AUTO",
+            "actual": "logloss"
+        },
+        "stopping_tolerance": {
+            "default": 0.001,
+            "actual": 0.005524187436252161
+        },
+        "max_runtime_secs": {
+            "default": 0.0,
+            "actual": 2.0
+        },
+        "seed": {
+            "default": -1,
+            "actual": -8396058761560484077
+        },
+        "distribution": {
+            "default": "AUTO",
+            "actual": "bernoulli"
+        },
+        "tweedie_power": {
+            "default": 1.5,
+            "actual": 1.5
+        },
+        "categorical_encoding": {
+            "default": "AUTO",
+            "actual": "AUTO"
+        },
+        "quiet_mode": {
+            "default": true,
+            "actual": true
+        },
+        "export_checkpoints_dir": {
+            "default": null,
+            "actual": null
+        },
+        "ntrees": {
+            "default": 50,
+            "actual": 375
+        },
+        "max_depth": {
+            "default": 6,
+            "actual": 20
+        },
+        "min_rows": {
+            "default": 1.0,
+            "actual": 10.0
+        },
+        "min_child_weight": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "learn_rate": {
+            "default": 0.3,
+            "actual": 0.05
+        },
+        "eta": {
+            "default": 0.3,
+            "actual": 0.3
+        },
+        "sample_rate": {
+            "default": 1.0,
+            "actual": 0.6
+        },
+        "subsample": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "col_sample_rate": {
+            "default": 1.0,
+            "actual": 0.8
+        },
+        "colsample_bylevel": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "col_sample_rate_per_tree": {
+            "default": 1.0,
+            "actual": 0.8
+        },
+        "colsample_bytree": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "max_abs_leafnode_pred": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "max_delta_step": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "monotone_constraints": {
+            "default": null,
+            "actual": null
+        },
+        "score_tree_interval": {
+            "default": 0,
+            "actual": 5
+        },
+        "min_split_improvement": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "gamma": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "nthread": {
+            "default": -1,
+            "actual": -1
+        },
+        "max_bins": {
+            "default": 256,
+            "actual": 256
+        },
+        "max_leaves": {
+            "default": 0,
+            "actual": 0
+        },
+        "min_sum_hessian_in_leaf": {
+            "default": 100.0,
+            "actual": 100.0
+        },
+        "min_data_in_leaf": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "sample_type": {
+            "default": "uniform",
+            "actual": "uniform"
+        },
+        "normalize_type": {
+            "default": "tree",
+            "actual": "tree"
+        },
+        "rate_drop": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "one_drop": {
+            "default": false,
+            "actual": false
+        },
+        "skip_drop": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "tree_method": {
+            "default": "auto",
+            "actual": "auto"
+        },
+        "grow_policy": {
+            "default": "depthwise",
+            "actual": "depthwise"
+        },
+        "booster": {
+            "default": "gbtree",
+            "actual": "gbtree"
+        },
+        "reg_lambda": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "reg_alpha": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "dmatrix_type": {
+            "default": "auto",
+            "actual": "auto"
+        },
+        "backend": {
+            "default": "auto",
+            "actual": "auto"
+        },
+        "gpu_id": {
+            "default": 0,
+            "actual": 0
+        }
+    },
+    {
+        "model_id": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ModelKeyV3",
+                    "schema_type": "Key<Model>"
+                },
+                "name": "GLM_grid_1_AutoML_20190418_113508_model_1",
+                "type": "Key<Model>",
+                "URL": "/3/Models/GLM_grid_1_AutoML_20190418_113508_model_1"
+            }
+        },
+        "training_frame": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "FrameKeyV3",
+                    "schema_type": "Key<Frame>"
+                },
+                "name": "automl_training_py_6_sid_8a3f",
+                "type": "Key<Frame>",
+                "URL": "/3/Frames/automl_training_py_6_sid_8a3f"
+            }
+        },
+        "validation_frame": {
+            "default": null,
+            "actual": null
+        },
+        "nfolds": {
+            "default": 0,
+            "actual": 5
+        },
+        "seed": {
+            "default": -1,
+            "actual": 711766579752531550
+        },
+        "keep_cross_validation_models": {
+            "default": true,
+            "actual": false
+        },
+        "keep_cross_validation_predictions": {
+            "default": false,
+            "actual": true
+        },
+        "keep_cross_validation_fold_assignment": {
+            "default": false,
+            "actual": false
+        },
+        "fold_assignment": {
+            "default": "AUTO",
+            "actual": "Modulo"
+        },
+        "fold_column": {
+            "default": null,
+            "actual": null
+        },
+        "response_column": {
+            "default": null,
+            "actual": {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "ColSpecifierV3",
+                    "schema_type": "VecSpecifier"
+                },
+                "column_name": "ACTION",
+                "is_member_of_frames": null
+            }
+        },
+        "ignored_columns": {
+            "default": null,
+            "actual": []
+        },
+        "ignore_const_cols": {
+            "default": true,
+            "actual": true
+        },
+        "score_each_iteration": {
+            "default": false,
+            "actual": false
+        },
+        "offset_column": {
+            "default": null,
+            "actual": null
+        },
+        "weights_column": {
+            "default": null,
+            "actual": null
+        },
+        "family": {
+            "default": "gaussian",
+            "actual": "binomial"
+        },
+        "tweedie_variance_power": {
+            "default": 0.0,
+            "actual": 0.0
+        },
+        "tweedie_link_power": {
+            "default": 1.0,
+            "actual": 1.0
+        },
+        "solver": {
+            "default": "AUTO",
+            "actual": "COORDINATE_DESCENT"
+        },
+        "alpha": {
+            "default": null,
+            "actual": [
+                0.0,
+                0.2,
+                0.4,
+                0.6,
+                0.8,
+                1.0
+            ]
+        },
+        "lambda": {
+            "default": null,
+            "actual": [
+                0.40044436071981493,
+                0.24868273229194082,
+                0.15443618990917896,
+                0.09590749037478274,
+                0.05956017637704195,
+                0.036987878592192616,
+                0.022970099250379815,
+                0.014264820791416522,
+                0.008858695384516653,
+                0.005501399916841423,
+                0.003416462552479351,
+                0.0021216811264277652,
+                0.0013175999248032143
+            ]
+        },
+        "lambda_search": {
+            "default": false,
+            "actual": true
+        },
+        "early_stopping": {
+            "default": true,
+            "actual": true
+        },
+        "nlambdas": {
+            "default": -1,
+            "actual": 30
+        },
+        "standardize": {
+            "default": true,
+            "actual": true
+        },
+        "missing_values_handling": {
+            "default": "MeanImputation",
+            "actual": "MeanImputation"
+        },
+        "compute_p_values": {
+            "default": false,
+            "actual": false
+        },
+        "remove_collinear_columns": {
+            "default": false,
+            "actual": false
+        },
+        "intercept": {
+            "default": true,
+            "actual": true
+        },
+        "non_negative": {
+            "default": false,
+            "actual": false
+        },
+        "max_iterations": {
+            "default": -1,
+            "actual": 300
+        },
+        "objective_epsilon": {
+            "default": -1.0,
+            "actual": 0.0001
+        },
+        "beta_epsilon": {
+            "default": 0.0001,
+            "actual": 0.0001
+        },
+        "gradient_epsilon": {
+            "default": -1.0,
+            "actual": 1.0000000000000002e-06
+        },
+        "link": {
+            "default": "family_default",
+            "actual": "logit"
+        },
+        "prior": {
+            "default": -1.0,
+            "actual": -1.0
+        },
+        "lambda_min_ratio": {
+            "default": -1.0,
+            "actual": 1.0000000000000002e-06
+        },
+        "beta_constraints": {
+            "default": null,
+            "actual": null
+        },
+        "max_active_predictors": {
+            "default": -1,
+            "actual": 5000
+        },
+        "interactions": {
+            "default": null,
+            "actual": null
+        },
+        "interaction_pairs": {
+            "default": null,
+            "actual": null
+        },
+        "obj_reg": {
+            "default": -1.0,
+            "actual": 3.0516646830846227e-05
+        },
+        "export_checkpoints_dir": {
+            "default": null,
+            "actual": null
+        },
+        "balance_classes": {
+            "default": false,
+            "actual": false
+        },
+        "class_sampling_factors": {
+            "default": null,
+            "actual": null
+        },
+        "max_after_balance_size": {
+            "default": 5.0,
+            "actual": 5.0
+        },
+        "max_confusion_matrix_size": {
+            "default": 20,
+            "actual": 20
+        },
+        "max_hit_ratio_k": {
+            "default": 0,
+            "actual": 0
+        },
+        "max_runtime_secs": {
+            "default": 0.0,
+            "actual": 3.6664999999999996
+        },
+        "custom_metric_func": {
+            "default": null,
+            "actual": null
+        }
+    }
+]
